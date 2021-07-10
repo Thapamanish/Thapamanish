@@ -1,4 +1,4 @@
-### Hi there, I'm Manish THapa 
+### Hi there, I'm Manish Thapa 
 
 ## I'm a 3rd Year Computer Science Engineering Student who loves web devlopment!!
 
