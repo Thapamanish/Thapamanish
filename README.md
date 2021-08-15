@@ -2,15 +2,15 @@
 ### <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px"> there, I'm Manish Thapa !!!
 ## I'm a 3rd year Computer Science Student in Dr. Ambedkar Institute of Technology.
 
-#### - Learning :
-  <img src="https://img.icons8.com/color/15/4a90e2/learning.png"/> Data Structures & Algorithms <br>
-  <img src="https://img.icons8.com/color/15/4a90e2/learning.png"/> Web development
+####  <img src="https://img.icons8.com/color/20/4a90e2/learning.png"/> Learning :
+  - Data Structures & Algorithms <br>
+  - Web development
 
-#### - Hobbies :
-<img src="https://img.icons8.com/fluency/15/4a90e2/drawing.png"/> Watching Anime
+#### <img src="https://img.icons8.com/fluency/20/4a90e2/drawing.png"/> Hobbies :
+- Watching Anime
 
-#### - Goals(2021) :
-<img src="https://img.icons8.com/color/15/4a90e2/goal--v1.png"/> Contribute more to Open Source projects
+#### <img src="https://img.icons8.com/color/20/4a90e2/goal--v1.png"/> Goals(2021) :
+- Contribute more to Open Source projects
 
 
 ## Connect with me:
