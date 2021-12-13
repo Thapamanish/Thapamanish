@@ -1,6 +1,6 @@
 
 ### <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40px"> there, I'm Manish Thapa !!!
-## I'm a 3rd year Computer Science Student in Dr. Ambedkar Institute of Technology.
+## I'm a final year Computer Science Student in Dr. Ambedkar Institute of Technology, Bangalore.
 
 ####  <img src="https://img.icons8.com/color/20/4a90e2/learning.png"/> Learning :
   - Data Structures & Algorithms <br>
