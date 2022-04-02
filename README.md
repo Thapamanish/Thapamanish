@@ -11,7 +11,7 @@
 - Watching Anime
 - Curating the learnings and implementing them to the upcoming problems.
 
-#### <img src="https://img.icons8.com/color/20/4a90e2/goal--v1.png"/> Goals(202w) :
+#### <img src="https://img.icons8.com/color/20/4a90e2/goal--v1.png"/> Goals(2022) :
 - Strengthening the concept in DSA through Java.
 - Implement the knowledge acquired in my 4 yrs of engineering journey.
 
