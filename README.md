@@ -3,14 +3,17 @@
 ## I'm a final year Computer Science Student in Dr. Ambedkar Institute of Technology, Bangalore.
 
 ####  <img src="https://img.icons8.com/color/20/4a90e2/learning.png"/> Learning :
-  - Data Structures & Algorithms <br>
-  - Web development
+  - Data Structures & Algorithms.
+  - Kotlin 
+  - Cassendra
 
 #### <img src="https://img.icons8.com/fluency/20/4a90e2/drawing.png"/> Hobbies :
 - Watching Anime
+- Curating the learnings and implementing them to the upcoming problems.
 
-#### <img src="https://img.icons8.com/color/20/4a90e2/goal--v1.png"/> Goals(2021) :
-- Contribute more to Open Source projects
+#### <img src="https://img.icons8.com/color/20/4a90e2/goal--v1.png"/> Goals(202w) :
+- Strengthening the concept in DSA through Java.
+- Implement the knowledge acquired in my 4 yrs of engineering journey.
 
 
 ## Connect with me:
