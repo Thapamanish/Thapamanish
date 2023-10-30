@@ -38,7 +38,7 @@
 
 <br>
 
-### ✍️ Dev Quote of the Day sfsf
+### ✍️ Dev Quote of the Day 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 
