@@ -1,6 +1,8 @@
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
-[![](https://visitcount.itsvg.in/api?id=thapamanish&icon=7&color=3&pretty=true)](https://visitcount.itsvg.in)
+<br>
+
+![](https://komarev.com/ghpvc/?username=thapamanish&style=for-the-badge&color=green)
 
 <br>
 
