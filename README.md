@@ -2,103 +2,130 @@
 
 # Manish Thapa
 
-### Software engineer building useful things from Nepal
+### Software engineer · systems builder · engineer from Nepal
 
 <p>
-  <a href="https://engineerfromnepal.com"><img src="https://img.shields.io/badge/Engineer%20From%20Nepal-useful%20work-111827?style=for-the-badge" alt="Engineer From Nepal"></a>
-  <a href="https://www.linkedin.com/in/iammanish041/"><img src="https://img.shields.io/badge/LinkedIn-connect-0f766e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://engineerfromnepal.com"><img src="https://img.shields.io/badge/Engineer%20From%20Nepal-useful%20work-163b35?style=for-the-badge&logo=readme&logoColor=white" alt="Engineer From Nepal"></a>
+  <a href="https://www.linkedin.com/in/iammanish041/"><img src="https://img.shields.io/badge/LinkedIn-find%20me-0f766e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/Thapamanish"><img src="https://img.shields.io/badge/GitHub-Thapamanish-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
 <p><em>Build a technical life from wherever you are.</em></p>
 
 </div>
 
-I’m a backend-focused software engineer working at Target on enterprise carts and checkout. I design and improve services that handle real-time commerce workflows, with an emphasis on reliability, performance, and clear interfaces between systems.
+I’m a software engineer who likes working where product behavior meets system behavior: distributed services, data-intensive workflows, retrieval systems, and the tooling that makes complex work easier to understand.
 
-I’m also building [Engineer From Nepal](https://engineerfromnepal.com): a publication for practical guides, browser tools, projects, and experiments. Its purpose is simple — share useful work clearly, especially the work that usually stays hidden behind the finished product.
+My background spans enterprise commerce at Target, production engineering at Google X’s Moonshot Factory, and early-stage full-stack work. I’m currently pursuing an **M.S. in Computer Science at San Diego State University** while building, learning, and publishing through [Engineer From Nepal](https://engineerfromnepal.com).
 
 <div align="center">
 
-| `origin` | `focus` | `mode` |
+| `origin` | `current chapter` | `working style` |
 | :---: | :---: | :---: |
-| Nepal | reliable systems | building · learning · publishing |
+| Nepal | M.S. Computer Science · SDSU | useful work, openly shared |
 
 </div>
 
-## Current focus
+## `manish --now`
 
 ```text
-$ manish --now
-
-01  Improving cart and checkout workflows at Target
-02  Designing Kafka-based event processing and reliable services
-03  Building Engineer From Nepal and its practical tools
-04  Practicing algorithms, reinforcement learning, and system design
+01  Studying systems, machine learning, and reinforcement learning
+02  Building practical tools and source-aware guides at Engineer From Nepal
+03  Exploring distributed systems, RAG, vector search, and observability
+04  Turning ideas into small, shipped experiments
 ```
 
-## Engineering toolkit
+## The engineering map
 
-<p>
-  <img src="https://skillicons.dev/icons?i=kotlin,java,python,micronaut" alt="Kotlin, Java, Python, Micronaut">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kotlin,java,python,typescript,javascript,go,cpp" alt="Kotlin, Java, Python, TypeScript, JavaScript, Go, C++">
   <br>
-  <img src="https://skillicons.dev/icons?i=kafka,cassandra,postgres,elasticsearch" alt="Kafka, Cassandra, PostgreSQL, Elasticsearch">
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,react,grpc,postgres,redis,cassandra,kafka" alt="Spring, Node.js, React, gRPC, PostgreSQL, Redis, Cassandra, Kafka">
   <br>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,azure,linux,gradle" alt="Docker, Kubernetes, AWS, Azure, Linux, Gradle">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,terraform,githubactions,prometheus,grafana" alt="AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions, Prometheus, Grafana">
 </p>
 
-| Area | What I care about |
+| Area | I build with / think about |
 | --- | --- |
-| **Backend** | Kotlin, Micronaut, Java, Python, REST APIs, coroutines |
-| **Distributed systems** | Kafka, event-driven architecture, real-time processing |
-| **Data** | Cassandra, PostgreSQL, Elasticsearch, data access patterns |
-| **Engineering practice** | Observability, performance tuning, testing, system design |
+| **Systems** | Distributed systems, microservices, event-driven architecture, concurrency |
+| **Backend** | Spring Boot, REST, gRPC, WebSockets, Node.js, API design |
+| **Data** | PostgreSQL, Cassandra, Redis, Kafka, Elasticsearch, vector search |
+| **AI / ML** | PyTorch, scikit-learn, Hugging Face, RAG, embeddings, FAISS |
+| **Delivery** | AWS, GCP, Docker, Kubernetes, Terraform, GitHub Actions, CI/CD |
+| **Observability** | OpenTelemetry, distributed tracing, Prometheus, Grafana, ELK |
 
-## Selected work
+## Work that shaped me
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [Engineer From Nepal](https://github.com/Thapamanish/engineerfromnepal)
+### ⚡ Target · Priority One Platform
 
-The publication, tools, and experiments behind the site.
+Built Java/Kotlin microservices for enterprise carts and checkouts processing **5M+ daily transactions**. Improved get-cart **P95 latency from 250 ms to under 80 ms** through Cassandra optimization, parallel upstream calls, and caching.
 
 </td>
 <td width="50%" valign="top">
 
-### [NeetCode submissions](https://github.com/Thapamanish/neetcode-submissions)
+### 🚀 Google X · Moonshot Factory
 
-Ongoing practice with algorithms and problem solving.
+Designed a production pipeline for electrical-grid models across GCP, reducing feeder processing time from **over 3 hours to under 1 hour** with validation, retries, failure isolation, and rollback support.
+
+</td>
+</tr>
+</table>
+
+## Things I’ve shipped
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [AI Document Assistant](https://github.com/Thapamanish)
+
+Source-grounded document search using RAG, LangChain, OpenAI API, FAISS, and Streamlit. Reached **200+ users** and reduced retrieval latency by **40%**.
+
+</td>
+<td width="50%" valign="top">
+
+### 💬 Real-time Chat Application
+
+Room-based messaging and file sharing using Java, Spring Boot, WebSockets, Redis, PostgreSQL, and Spring Security, supporting **1K+ concurrent connections**.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [Breakout DQN](https://github.com/Thapamanish/breakout-dqn)
+### 🌐 [Engineer From Nepal](https://github.com/Thapamanish/engineerfromnepal)
 
-Reinforcement-learning experiments with a playable environment.
+A publication, tool shelf, and field notebook for practical guides, experiments, and useful work from an engineer from Nepal.
 
 </td>
 <td width="50%" valign="top">
 
-### [450DSA](https://github.com/Thapamanish/450DSA)
+### 🧠 [Breakout DQN](https://github.com/Thapamanish/breakout-dqn)
 
-A practical record of algorithms and data structures.
+An ongoing reinforcement-learning experiment: learning by building, measuring, and explaining the pieces.
 
 </td>
 </tr>
 </table>
 
-## Why I build
+## A few signals
 
-I care about the distance between an idea and something genuinely useful: a service that behaves predictably under load, a tool that removes friction, or an explanation that gives someone a clear next step.
+- 🏆 Two-time Target quarterly award recipient and two-time hackathon first-place winner.
+- 🎓 SDSU Scholarship recipient; Gold Medal recipient at Dr. Ambedkar Institute of Technology.
+- 🧭 I care about the distance between an idea and something genuinely useful.
+- ✍️ I write to make difficult systems, processes, and decisions easier to navigate.
 
-## Explore
+## From Nepal, openly shared
+
+Engineer From Nepal is my public notebook for building a technical life: the tools I make, the systems I study, and the work I can explain clearly enough to help someone else.
 
 <div align="center">
 
-[Engineer From Nepal](https://engineerfromnepal.com) · [Library](https://engineerfromnepal.com/blog/) · [LinkedIn](https://www.linkedin.com/in/iammanish041/)
+[Explore the publication →](https://engineerfromnepal.com) · [Read the Library →](https://engineerfromnepal.com/blog/) · [Connect on LinkedIn →](https://www.linkedin.com/in/iammanish041/)
 
 <br><br>
 
