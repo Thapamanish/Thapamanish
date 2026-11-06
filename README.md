@@ -27,18 +27,21 @@ I’m **Manish** — a software engineer from Nepal, now based in San Diego. I s
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/journey.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/journey.svg">
-    <img src="./assets/journey.svg" width="900" alt="Animated path from Kathmandu to Target, SDSU, Google X the Moonshot Factory, and what comes next">
+    <img src="./assets/journey.svg" width="900" alt="Animated path from Nepal to Target, SDSU, Google X the Moonshot Factory, and what comes next">
   </picture>
 </p>
 
 ## Stack
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,python,pytorch,spring,kafka,postgres,docker,kubernetes&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,python,pytorch,spring,kafka,postgres,docker,kubernetes&theme=light">
-    <img src="https://skillicons.dev/icons?i=java,python,pytorch,spring,kafka,postgres,docker,kubernetes&theme=dark" alt="Java, Python, PyTorch, Spring, Kafka, PostgreSQL, Docker, and Kubernetes">
-  </picture>
+  <img src="https://img.shields.io/badge/Java-7c9cff?style=flat-square&amp;logo=openjdk&amp;logoColor=0b1020" alt="Java">
+  <img src="https://img.shields.io/badge/Python-5eead4?style=flat-square&amp;logo=python&amp;logoColor=0b1020" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-ffb86b?style=flat-square&amp;logo=pytorch&amp;logoColor=0b1020" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Spring-7c9cff?style=flat-square&amp;logo=spring&amp;logoColor=0b1020" alt="Spring">
+  <img src="https://img.shields.io/badge/Kafka-5eead4?style=flat-square&amp;logo=apachekafka&amp;logoColor=0b1020" alt="Kafka">
+  <img src="https://img.shields.io/badge/PostgreSQL-ffb86b?style=flat-square&amp;logo=postgresql&amp;logoColor=0b1020" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-7c9cff?style=flat-square&amp;logo=docker&amp;logoColor=0b1020" alt="Docker">
+  <img src="https://img.shields.io/badge/Kubernetes-5eead4?style=flat-square&amp;logo=kubernetes&amp;logoColor=0b1020" alt="Kubernetes">
 </p>
 
 ## Contributions
