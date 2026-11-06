@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" role="img" aria-labelledby="title desc">
+  <title id="title">Manish Thapa's engineering journey</title>
+  <desc id="desc">An animated path moves from Nepal to Target, San Diego State University, X the Moonshot Factory, and what comes next.</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #ffffff; }
+    .line { fill: none; stroke: #c7d4d0; stroke-width: 4; stroke-linecap: round; }
+    .node { fill: #f6f8fa; stroke: #0f766e; stroke-width: 4; }
+    .label { fill: #172b27; }
+    .meta { fill: #57606a; }
+    .dot { fill: #c96f3b; stroke: #ffffff; stroke-width: 3; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .line { stroke: #2b4c46; }
+      .node { fill: #161b22; stroke: #5cc8b9; }
+      .label { fill: #e6edf3; }
+      .meta { fill: #8b949e; }
+      .dot { fill: #f29a67; stroke: #0d1117; }
+    }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect class="bg" width="900" height="190" rx="16"/>
+  <path id="route" class="line" d="M78 104 C150 45 220 45 292 104 S434 163 506 104 S648 45 720 104 S790 156 834 104"/>
+
+  <g text-anchor="middle">
+    <g>
+      <circle class="node" cx="78" cy="104" r="12">
+        <animate attributeName="r" values="12;15;12" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text class="label" x="78" y="42" font-size="21" font-weight="700">NEPAL</text>
+      <text class="meta" x="78" y="64" font-size="14">origin</text>
+    </g>
+    <g>
+      <circle class="node" cx="292" cy="104" r="12"/>
+      <text class="label" x="292" y="154" font-size="21" font-weight="700">TARGET</text>
+      <text class="meta" x="292" y="176" font-size="14">backend systems</text>
+    </g>
+    <g>
+      <circle class="node" cx="506" cy="104" r="12"/>
+      <text class="label" x="506" y="42" font-size="21" font-weight="700">SDSU</text>
+      <text class="meta" x="506" y="64" font-size="14">MS computer science</text>
+    </g>
+    <g>
+      <circle class="node" cx="720" cy="104" r="12"/>
+      <text class="label" x="720" y="154" font-size="21" font-weight="700">X</text>
+      <text class="meta" x="720" y="176" font-size="14">moonshot factory</text>
+    </g>
+    <g>
+      <circle class="node" cx="834" cy="104" r="12"/>
+      <text class="label" x="820" y="42" font-size="21" font-weight="700">NEXT?</text>
+      <text class="meta" x="820" y="64" font-size="14">still building</text>
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <circle class="dot" r="9" cx="0" cy="0">
+    <animateMotion dur="10s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.55 1">
+      <mpath href="#route"/>
+    </animateMotion>
+  </circle>
+</svg>

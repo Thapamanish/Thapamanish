@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 96" role="img" aria-labelledby="title desc">
+  <title id="title">Animated introduction for Manish Thapa</title>
+  <desc id="desc">A terminal line types Hi, I'm Manish, then Namaste in Devanagari, then Manish's roles.</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #f6f8fa; }
+    .border { fill: none; stroke: #d0d7de; }
+    .prompt { fill: #0f766e; }
+    .copy { fill: #172b27; }
+    .cursor { fill: #c96f3b; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .border { stroke: #30363d; }
+      .prompt { fill: #5cc8b9; }
+      .copy { fill: #e6edf3; }
+      .cursor { fill: #f29a67; }
+    }
+  </style>
+
+  <rect class="bg" width="900" height="96" rx="14"/>
+  <rect class="border" x="1" y="1" width="898" height="94" rx="13"/>
+  <circle cx="24" cy="22" r="5" fill="#ef6a5b"/>
+  <circle cx="42" cy="22" r="5" fill="#f4bd4f"/>
+  <circle cx="60" cy="22" r="5" fill="#61c454"/>
+  <text class="prompt" x="28" y="67" font-size="27" font-weight="700"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$</text>
+
+  <defs>
+    <clipPath id="type1"><rect x="58" y="40" width="0" height="38"><animate attributeName="width" values="0;0;290;290;0" keyTimes="0;0.03;0.22;0.30;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type2"><rect x="58" y="40" width="0" height="38"><animate attributeName="width" values="0;0;245;245;0" keyTimes="0;0.36;0.54;0.63;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type3"><rect x="58" y="40" width="0" height="38"><animate attributeName="width" values="0;0;690;690;0" keyTimes="0;0.69;0.88;0.97;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#type1)">
+    <text class="copy" x="58" y="67" font-size="27" font-weight="600"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, sans-serif">Hi, I'm Manish.</text>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.31;0.32;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+
+  <g clip-path="url(#type2)">
+    <text class="copy" x="58" y="67" font-size="27" font-weight="600"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Noto Sans Devanagari', 'Devanagari Sangam MN', Mangal, sans-serif">नमस्ते, म मनीष हुँ।</text>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.35;0.36;0.64;0.65;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+
+  <g clip-path="url(#type3)">
+    <text class="copy" x="58" y="67" font-size="25" font-weight="600"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, sans-serif">backend engineer · systems builder · MS CS student</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.68;0.69;0.98;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+
+  <rect class="cursor" x="58" y="44" width="3" height="29">
+    <animate attributeName="x" values="58;348;58;303;58;748;58" keyTimes="0;0.22;0.32;0.54;0.65;0.88;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

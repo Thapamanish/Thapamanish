@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Manish Thapa breakout animation</title>
+  <desc id="desc">A ball bounces through bricks labeled with Manish's core technologies, clears them, and resets in a seamless loop.</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .bg { fill: #f6f8fa; }
+    .panel { fill: #ffffff; stroke: #d0d7de; }
+    .title { fill: #172b27; }
+    .muted { fill: #57606a; }
+    .brick-a { fill: #163b35; }
+    .brick-b { fill: #0f766e; }
+    .brick-c { fill: #c96f3b; }
+    .brick-text { fill: #ffffff; }
+    .paddle { fill: #172b27; }
+    .ball { fill: #c96f3b; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; }
+      .title { fill: #e6edf3; }
+      .muted { fill: #8b949e; }
+      .brick-a { fill: #2f6f63; }
+      .brick-b { fill: #1f9d8f; }
+      .brick-c { fill: #d98657; }
+      .paddle { fill: #e6edf3; }
+      .ball { fill: #f29a67; }
+    }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect class="bg" width="900" height="260" rx="18"/>
+  <rect class="panel" x="8" y="8" width="884" height="244" rx="14"/>
+
+  <text class="muted" x="36" y="42" font-size="15">manish@nepal:~/playground</text>
+  <text class="title" x="36" y="73" font-size="25" font-weight="700">BREAKOUT // BUILD · BREAK · LEARN · REPEAT</text>
+
+  <g font-size="15" font-weight="700" text-anchor="middle">
+    <g>
+      <rect class="brick-a" x="54" y="102" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="118" y="124">JAVA</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.14;0.16;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-b" x="192" y="102" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="256" y="124">SPRING</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.22;0.24;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-c" x="330" y="102" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="394" y="124">KAFKA</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.30;0.32;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-a" x="468" y="102" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="532" y="124">PYTHON</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.38;0.40;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-b" x="606" y="102" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="670" y="124">PYTORCH</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.46;0.48;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <rect class="brick-c" x="123" y="146" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="187" y="168">SQL</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.54;0.56;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-a" x="261" y="146" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="325" y="168">DOCKER</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.62;0.64;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-b" x="399" y="146" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="463" y="168">K8S</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.70;0.72;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect class="brick-c" x="537" y="146" width="128" height="34" rx="7"/>
+      <text class="brick-text" x="601" y="168">GCP</text>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.78;0.80;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <rect class="paddle" x="370" y="225" width="160" height="10" rx="5">
+    <animate attributeName="x" values="370;90;610;370" keyTimes="0;0.34;0.72;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle class="ball" r="9" cx="0" cy="0">
+    <animateMotion dur="12s" repeatCount="indefinite" calcMode="linear"
+      path="M450 214 L118 119 L256 119 L394 119 L532 119 L670 119 L187 163 L325 163 L463 163 L601 163 L805 205 L450 214"/>
+  </circle>
+
+  <text class="muted" x="744" y="234" font-size="13">loop: ∞</text>
+</svg>
