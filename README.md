@@ -34,18 +34,18 @@ I’m **Manish** — a software engineer from Nepal, now based in San Diego. I s
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java" height="44" alt="Java">
-  <img src="https://skillicons.dev/icons?i=kotlin" height="44" alt="Kotlin">
-  <img src="https://skillicons.dev/icons?i=python" height="44" alt="Python">
-  <img src="https://skillicons.dev/icons?i=spring" height="44" alt="Spring">
-  <img src="https://skillicons.dev/icons?i=micronaut" height="44" alt="Micronaut">
-  <img src="https://skillicons.dev/icons?i=kafka" height="44" alt="Kafka">
-  <img src="https://skillicons.dev/icons?i=postgres" height="44" alt="PostgreSQL">
-  <img src="https://skillicons.dev/icons?i=cassandra" height="44" alt="Cassandra">
-  <img src="https://skillicons.dev/icons?i=pytorch" height="44" alt="PyTorch">
-  <img src="https://skillicons.dev/icons?i=docker" height="44" alt="Docker">
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="44" alt="Kubernetes">
-  <img src="https://skillicons.dev/icons?i=aws" height="44" alt="Amazon Web Services">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java&amp;theme=dark"><img src="https://skillicons.dev/icons?i=java&amp;theme=light" height="44" alt="Java"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin&amp;theme=dark"><img src="https://skillicons.dev/icons?i=kotlin&amp;theme=light" height="44" alt="Kotlin"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python&amp;theme=dark"><img src="https://skillicons.dev/icons?i=python&amp;theme=light" height="44" alt="Python"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=spring&amp;theme=dark"><img src="https://skillicons.dev/icons?i=spring&amp;theme=light" height="44" alt="Spring"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=micronaut&amp;theme=dark"><img src="https://skillicons.dev/icons?i=micronaut&amp;theme=light" height="44" alt="Micronaut"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kafka&amp;theme=dark"><img src="https://skillicons.dev/icons?i=kafka&amp;theme=light" height="44" alt="Kafka"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres&amp;theme=dark"><img src="https://skillicons.dev/icons?i=postgres&amp;theme=light" height="44" alt="PostgreSQL"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cassandra&amp;theme=dark"><img src="https://skillicons.dev/icons?i=cassandra&amp;theme=light" height="44" alt="Cassandra"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch&amp;theme=dark"><img src="https://skillicons.dev/icons?i=pytorch&amp;theme=light" height="44" alt="PyTorch"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker&amp;theme=dark"><img src="https://skillicons.dev/icons?i=docker&amp;theme=light" height="44" alt="Docker"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kubernetes&amp;theme=dark"><img src="https://skillicons.dev/icons?i=kubernetes&amp;theme=light" height="44" alt="Kubernetes"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark"><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" height="44" alt="Amazon Web Services"></picture>
 </p>
 
 ## Contributions
