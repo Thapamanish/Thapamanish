@@ -35,13 +35,17 @@ I’m **Manish** — a software engineer from Nepal, now based in San Diego. I s
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java" height="44" alt="Java">
+  <img src="https://skillicons.dev/icons?i=kotlin" height="44" alt="Kotlin">
   <img src="https://skillicons.dev/icons?i=python" height="44" alt="Python">
-  <img src="https://skillicons.dev/icons?i=pytorch" height="44" alt="PyTorch">
   <img src="https://skillicons.dev/icons?i=spring" height="44" alt="Spring">
+  <img src="https://skillicons.dev/icons?i=micronaut" height="44" alt="Micronaut">
   <img src="https://skillicons.dev/icons?i=kafka" height="44" alt="Kafka">
   <img src="https://skillicons.dev/icons?i=postgres" height="44" alt="PostgreSQL">
+  <img src="https://skillicons.dev/icons?i=cassandra" height="44" alt="Cassandra">
+  <img src="https://skillicons.dev/icons?i=pytorch" height="44" alt="PyTorch">
   <img src="https://skillicons.dev/icons?i=docker" height="44" alt="Docker">
   <img src="https://skillicons.dev/icons?i=kubernetes" height="44" alt="Kubernetes">
+  <img src="https://skillicons.dev/icons?i=aws" height="44" alt="Amazon Web Services">
 </p>
 
 ## Contributions
