@@ -1,95 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
-  <title id="title">Manish Thapa breakout animation</title>
-  <desc id="desc">A ball bounces through bricks labeled with Manish's core technologies, clears them, and resets in a seamless loop.</desc>
-  <style>
-    :root { color-scheme: light dark; }
-    .bg { fill: #f6f8fa; }
-    .panel { fill: #ffffff; stroke: #d0d7de; }
-    .title { fill: #172b27; }
-    .muted { fill: #57606a; }
-    .brick-a { fill: #163b35; }
-    .brick-b { fill: #0f766e; }
-    .brick-c { fill: #c96f3b; }
-    .brick-text { fill: #ffffff; }
-    .paddle { fill: #172b27; }
-    .ball { fill: #c96f3b; }
-    @media (prefers-color-scheme: dark) {
-      .bg { fill: #0d1117; }
-      .panel { fill: #161b22; stroke: #30363d; }
-      .title { fill: #e6edf3; }
-      .muted { fill: #8b949e; }
-      .brick-a { fill: #2f6f63; }
-      .brick-b { fill: #1f9d8f; }
-      .brick-c { fill: #d98657; }
-      .paddle { fill: #e6edf3; }
-      .ball { fill: #f29a67; }
-    }
-    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Breakout animation revealing Manish Thapa&#x27;s motto</title>
+  <desc id="desc">A scripted ball breaks 36 bricks and reveals Build things that matter. Learn in public. before the game resets.</desc>
+  <rect width="900" height="300" rx="22" fill="#0b1020"/>
+  <rect x="1" y="1" width="898" height="298" rx="21" fill="#111936" stroke="#232c55" stroke-width="2"/>
+  <text x="34" y="39" fill="#8b95b8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="14">manish@nepal:~/arcade</text>
+  <text x="34" y="62" fill="#e8ecf8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700">BREAK THE BRICKS. REVEAL THE SIGNAL.</text>
 
-  <rect class="bg" width="900" height="260" rx="18"/>
-  <rect class="panel" x="8" y="8" width="884" height="244" rx="14"/>
+  <text x="450" y="132" fill="#e8ecf8" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="42" font-weight="700">Build things that matter.</text>
+  <text x="450" y="181" fill="#5eead4" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="42" font-weight="700">Learn in public.</text>
 
-  <text class="muted" x="36" y="42" font-size="15">manish@nepal:~/playground</text>
-  <text class="title" x="36" y="73" font-size="25" font-weight="700">BREAKOUT // BUILD · BREAK · LEARN · REPEAT</text>
-
-  <g font-size="15" font-weight="700" text-anchor="middle">
-    <g>
-      <rect class="brick-a" x="54" y="102" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="118" y="124">JAVA</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.14;0.16;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-b" x="192" y="102" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="256" y="124">SPRING</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.22;0.24;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-c" x="330" y="102" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="394" y="124">KAFKA</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.30;0.32;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-a" x="468" y="102" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="532" y="124">PYTHON</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.38;0.40;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-b" x="606" y="102" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="670" y="124">PYTORCH</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.46;0.48;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-
-    <g>
-      <rect class="brick-c" x="123" y="146" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="187" y="168">SQL</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.54;0.56;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-a" x="261" y="146" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="325" y="168">DOCKER</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.62;0.64;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-b" x="399" y="146" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="463" y="168">K8S</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.70;0.72;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-    <g>
-      <rect class="brick-c" x="537" y="146" width="128" height="34" rx="7"/>
-      <text class="brick-text" x="601" y="168">GCP</text>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.78;0.80;0.92;1" dur="12s" repeatCount="indefinite"/>
-    </g>
-  </g>
-
-  <rect class="paddle" x="370" y="225" width="160" height="10" rx="5">
-    <animate attributeName="x" values="370;90;610;370" keyTimes="0;0.34;0.72;1" dur="12s" repeatCount="indefinite"/>
+  <rect x="33" y="76" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.42;0.422;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="103" y="76" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.435;0.437;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="173" y="76" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.45;0.452;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="243" y="76" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.465;0.467;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="313" y="76" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.48;0.482;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="383" y="76" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.495;0.497;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="453" y="76" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.51;0.512;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="523" y="76" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.525;0.527;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="593" y="76" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.54;0.542;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="663" y="76" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.555;0.557;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="733" y="76" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.57;0.572;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="803" y="76" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.585;0.587;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="33" y="124" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.405;0.407;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="103" y="124" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.39;0.392;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="173" y="124" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.375;0.377;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="243" y="124" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.36;0.362;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="313" y="124" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.345;0.347;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="383" y="124" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.33;0.332;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="453" y="124" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.315;0.317;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="523" y="124" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.3;0.302;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="593" y="124" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.285;0.287;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="663" y="124" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.27;0.272;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="733" y="124" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.255;0.257;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="803" y="124" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.24;0.242;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="33" y="172" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.06;0.062;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="103" y="172" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.075;0.077;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="173" y="172" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.09;0.092;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="243" y="172" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.105;0.107;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="313" y="172" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.12;0.122;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="383" y="172" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.135;0.137;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="453" y="172" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.15;0.152;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="523" y="172" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.165;0.167;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="593" y="172" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.18;0.182;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="663" y="172" width="64" height="38" rx="7" fill="#ffb86b">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.195;0.197;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="733" y="172" width="64" height="38" rx="7" fill="#7c9cff">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.21;0.212;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="803" y="172" width="64" height="38" rx="7" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.225;0.227;0.775;0.825;1" dur="20.0s" repeatCount="indefinite"/>
   </rect>
 
-  <circle class="ball" r="9" cx="0" cy="0">
-    <animateMotion dur="12s" repeatCount="indefinite" calcMode="linear"
-      path="M450 214 L118 119 L256 119 L394 119 L532 119 L670 119 L187 163 L325 163 L463 163 L601 163 L805 205 L450 214"/>
+  <rect y="264" width="900" height="1" fill="#232c55"/>
+  <rect y="267" width="180" height="10" rx="5" fill="#7c9cff">
+    <animate attributeName="x" values="364.2;176.164;100.08888;108.73733;152.96968;212.14726;277.60185;345.69278;414.89097;484.55421;554.41277;624.35336;668.22841;686.65593;679.89549;636.45611;577.61156;512.29686;444.26468;375.09117;305.43829;235.58408;165.64531;95.67103;63.38183;49.82037;47.02456;86.45031;143.60913;208.21584;275.95065;344.99927;414.59969;484.43187;554.36139;624.33178;668.21935;489.45213;414.36989" keyTimes="0;0.06;0.075;0.09;0.105;0.12;0.135;0.15;0.165;0.18;0.195;0.21;0.225;0.24;0.255;0.27;0.285;0.3;0.315;0.33;0.345;0.36;0.375;0.39;0.405;0.42;0.435;0.45;0.465;0.48;0.495;0.51;0.525;0.54;0.555;0.57;0.585;0.775;1" dur="20.0s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+  <circle r="9" fill="#ffb86b" stroke="#0b1020" stroke-width="3">
+    <animate attributeName="cx" values="450;65;135;205;275;345;415;485;555;625;695;765;835;835;765;695;625;555;485;415;345;275;205;135;65;65;135;205;275;345;415;485;555;625;695;765;835;450;450" keyTimes="0;0.06;0.075;0.09;0.105;0.12;0.135;0.15;0.165;0.18;0.195;0.21;0.225;0.24;0.255;0.27;0.285;0.3;0.315;0.33;0.345;0.36;0.375;0.39;0.405;0.42;0.435;0.45;0.465;0.48;0.495;0.51;0.525;0.54;0.555;0.57;0.585;0.775;1" dur="20.0s" repeatCount="indefinite" calcMode="linear"/>
+    <animate attributeName="cy" values="252;191;191;191;191;191;191;191;191;191;191;191;191;143;143;143;143;143;143;143;143;143;143;143;143;95;95;95;95;95;95;95;95;95;95;95;95;252;252" keyTimes="0;0.06;0.075;0.09;0.105;0.12;0.135;0.15;0.165;0.18;0.195;0.21;0.225;0.24;0.255;0.27;0.285;0.3;0.315;0.33;0.345;0.36;0.375;0.39;0.405;0.42;0.435;0.45;0.465;0.48;0.495;0.51;0.525;0.54;0.555;0.57;0.585;0.775;1" dur="20.0s" repeatCount="indefinite" calcMode="linear"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.76;0.78;0.82;1" dur="20.0s" repeatCount="indefinite"/>
   </circle>
-
-  <text class="muted" x="744" y="234" font-size="13">loop: ∞</text>
+  <text x="866" y="282" fill="#8b95b8" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13">loop 20s</text>
 </svg>
