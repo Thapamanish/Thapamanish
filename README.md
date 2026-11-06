@@ -45,6 +45,10 @@ I’m **Manish** — a software engineer from Nepal, now based in San Diego. I s
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker&amp;theme=dark"><img src="https://skillicons.dev/icons?i=docker&amp;theme=light" height="44" alt="Docker"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kubernetes&amp;theme=dark"><img src="https://skillicons.dev/icons?i=kubernetes&amp;theme=light" height="44" alt="Kubernetes"></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark"><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" height="44" alt="Amazon Web Services"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=gcp&amp;theme=dark"><img src="https://skillicons.dev/icons?i=gcp&amp;theme=light" height="44" alt="Google Cloud Platform"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=elasticsearch&amp;theme=dark"><img src="https://skillicons.dev/icons?i=elasticsearch&amp;theme=light" height="44" alt="Elasticsearch"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=grafana&amp;theme=dark"><img src="https://skillicons.dev/icons?i=grafana&amp;theme=light" height="44" alt="Grafana"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react&amp;theme=dark"><img src="https://skillicons.dev/icons?i=react&amp;theme=light" height="44" alt="React"></picture>
 </p>
 
 ## Contributions
